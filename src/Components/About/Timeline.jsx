@@ -28,11 +28,11 @@ export const Timeline = () => {
     <>
       <div className="section mainsection">
         <h2 className="section__title" data-aos="fade-right">
-          My <span className="different">Timeline 💫</span>
+          Riwayat <span className="different">Pendidikan</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"November 2021 - Present"}
+            date={"2020 - sekarang"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -54,21 +54,11 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+              Universitas Amikom Yogyakarta
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Masai School (Remote)
-            </h4>
-            <p data-aos="fade-right">
-              Joined the Masai school to learn Full Stack Development and DSA.
-              Also get to learn lot more other skills as well.
-            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"May 2019"}
+            date={"2019-2020"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -90,22 +80,13 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+             SMAN 7 Pontianak
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-             Summer Training on JAVA
-            </h4>
-            <p data-aos="fade-right">
-              Completed 45 days Summer Training on Java from Techpile Technology Pvt. Ltd. Lucknow.
-            </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Jul 2017 - Aug 2020"}
+            date={"2017 - 2019"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -127,22 +108,12 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student [Diploma (Information Technology)]
+              Pondok Pesantren Husnul Khotimah
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Government Polytechnic Lucknow, Uttar Pradesh
-            </h4>
-            <p data-aos="fade-right">
-              Studied Information Technology which consists basics of HTML, CSS,
-              DSA, C and Java Programming . Passed with 74%.
-            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Jul 2015 - Aug 2017"}
+            date={"2014 - 2017"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -164,17 +135,8 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student [HSC (Science)]
+          SMPIT AL
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Kisan Inter College Siktaha, Sant Kabir Nagar, Uttar Pradesh
-            </h4>
-            <p data-aos="fade-right">
-              Studied 12th Science and Passed with 73%.
-            </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement

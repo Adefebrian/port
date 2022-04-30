@@ -13,7 +13,7 @@ export const Introduction = () => {
       <section id="#about">
         <div className="section" data-aos="fade-right">
           <h2 className="section__title">
-            About <span className="different">Me</span>
+            Tentang <span className="different">Saya</span>
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
@@ -21,39 +21,37 @@ export const Introduction = () => {
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hi Everyone, My name is{" "}
-                <span className="different">Ajay Kumar Maurya </span> and I am
-                from{" "}
+               Halo Semuanya, Nama Saya{" "}
+                <span className="different">Satrio Arif Wicaksono </span> dan saya berasal dari {" "}
                 <span className="different">
                   {" "}
-                  Sant Kabir Nagar, Uttar Pradesh (India)
+                 Indonesia
                 </span>
-                . I have completed my diploma in Information Technology from{" "}
+                . Saya adalah seorang mahasiswa Jurusan Informatika di Universitas Amikom Yogyakarta dan saat ini saya sudah memasuki{" "}
                 <span className="different">
-                  Government Polytechnic Lucknow, Uttar Pradesh 
+                  Semester 4.
                 </span>
-                . Then I joined full stack development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school.
+                . Selain menjadi mahasiswa saya juga suka mendaki{" "}
+                <span className="different">Puncak Gunung</span> sebagai hobby saya.
               </h4>
-              <h4>Terms That can describe me apart form Coding :</h4>
+              <h4>Kelebihan saya</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Quick Learner{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                YouTuber{" "}
+                Teamworks{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Team Player{" "}
+                Time Management{" "}
+              </h4>
+              <h4 className="different">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
+                Flexibility{" "}
               </h4>
             </div>
           </div>

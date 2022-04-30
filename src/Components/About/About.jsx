@@ -17,18 +17,15 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Ajay Kumar Maurya</span>
+         Halo, saya <span className="about__name">Satrio Arif Wicaksono</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Full Stack Developer having proficiency in
-          MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
-          15+ projects till now.
+          Saya seorang UI/UX Designer, yang memiliki pengalaman dalam bidang desain dan pembuatan website. Saya memiliki passion didunia IT sejak kecil dan saat ini saya sedang menempun pendidikan S1 Informatika di Universitas Amikom Yogyakarta.
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/Ajay-Maury"
+            href="https://github.com/Nicotine006"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -37,7 +34,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto: ajaymaurya6798@gmail.com"
+            href="mailto: satriooo@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -46,7 +43,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+919695889614"
+            href="tel:+62 896-6193-9204"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
@@ -55,7 +52,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/ajay-kumar-maurya/"
+            href="https://www.linkedin.com/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
@@ -63,27 +60,7 @@ export const About = () => {
           >
             <LinkedInIcon />
           </a>
-          {/* <a
-            href="https://twitter.com/KhakalShreyas"
-            aria-label="twitter"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <TwitterIcon />
-          </a> */}
         </div>
-
-        <button
-          className="btnResume"
-          onClick={() => {
-            window.open(
-              "https://docs.google.com/document/d/1Z8VwzctmJcpOTPZ_QKMcoOtM0Yrk_A_5Y7rKwla4_J4/edit?usp=sharing"
-            );
-          }}
-        >
-          Resume
-        </button>
       </div>
       <Introduction />
       <Timeline />

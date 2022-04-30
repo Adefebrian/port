@@ -69,17 +69,6 @@ export const Navbar = () => {
               Contact
             </a>
           </li>
-          <li className="nav__list-item">
-            <a
-              href="https://docs.google.com/document/d/1Z8VwzctmJcpOTPZ_QKMcoOtM0Yrk_A_5Y7rKwla4_J4/edit?usp=sharing"
-              onClick={toggleNavList}
-              className="link link--nav"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Resume
-            </a>
-          </li>
         </ul>
         <button
           type="button"
